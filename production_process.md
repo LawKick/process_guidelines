@@ -4,7 +4,7 @@
 
 * [Sprints](#sprints)
   - [Key Components of a Sprint](#key-components-of-a-sprint)
-    - [Spring Planning](#sprint-planning)
+    - [Sprint Planning](#sprint-planning)
     - [Product Preview](#product-preview)
     - [Product Planning](#product-planning)
     - [Backlog Grooming](#backlog-grooming)
