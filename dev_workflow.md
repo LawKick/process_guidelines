@@ -1,5 +1,7 @@
 # Lexicata Development Guidelines
 
+The following represents Lexicata development workflow guidelines. This is a living document that can change at any time. PRs are welcome.
+
 ## Branch Naming
 
 <table>
