@@ -2,6 +2,11 @@
 
 ### Table of Contents
 
+* [Roles](#roles)
+  - [Product Owner](#product-owner)
+  - [Tech Lead](#tech-lead)
+  - [Development Team](#development-team)
+  - [Users](#users)
 * [Sprints](#sprints)
   - [Key Components of a Sprint](#key-components-of-a-sprint)
     - [Sprint Planning](#sprint-planning)
@@ -13,11 +18,32 @@
     - [Story](#story)
     - [Epic](#epic)
     - [Project](#project)
-* [Roles](#roles)
-  - [Product Owner](#product-owner)
-  - [Tech Lead](#tech-lead)
-  - [Development Team](#development-team)
-  - [Users](#users)
+
+## Roles
+
+#### Product Owner
+* Define business requirements of project (what it should/shouldn't do)
+* Approve completed work (does this fulfill expectations based on defined criteria)
+* Provide info needed to write stories
+* Setting story priority
+
+#### Tech Lead
+* Advise overall technical approach
+* Ensure code is well-built, follows defined convention for the team, and is documented appropriately
+* Ensure technical workflow is followed as defined by team (commits, PRs, Jira, documentation, etc)
+* Connect team to technical resources
+* Determine "what is our platform as an organization?"
+
+#### Development Team
+* Turn business requirements into stories
+* Estimate stories
+* Complete tasks in order of PO's priorities
+* Implement features as defined by stories
+* Follow workflow as defined by team
+
+#### Users
+* Use software
+* Provide feedback
 
 ## Sprints
 
@@ -67,7 +93,7 @@ Retro	last day of sprint	All stakeholders
 
 **What:** Developers review every backlogged issue for relevance and accuracy as changes from the current sprint may affect backlogged issues.
 
-**Desired Outcome:** A well groomed backlog is easier to maintain in the log run rather than letting issues sit stale for long periods of time. The purpose of this meeting is good housekeeping. A clean projet board is a happy project board.
+**Desired Outcome:** A well groomed backlog is easier to maintain in the long run rather than letting issues sit stale for long periods of time. The purpose of this meeting is good housekeeping. A clean project board is a happy project board.
 
 #### Retro
 **Who:** All Stakeholders
@@ -98,14 +124,14 @@ Estimates are generally done using a point system which should be decided upon b
 * 3 points: This a story that needs more information to be fully understood and broken out in to do-able tasks. A 3 point story should always be broken down in to smaller stories before work begins.  
 
 
-##### How to write a story
+#### How to write a story
 
 As a(n) [user type] </br>
 In order to [extract business value] <--- Optional but valuable </br>
 When I [take some action]</br>
-(and [take some other action]) <--- Actions/steps necessary to get value</br>
+(and [take some other action])       <--- Actions/steps necessary to get value</br>
 Then I [observe an outcome]</br>
-(and I [observe another outcome]) <--- Achieving business value (as a result of input)
+(and I [observe another outcome])    <--- Achieving business value (as a result of input)
 
 _If there are more than two 'ands' for the 'when' clauses, the story is probably too big._
 
@@ -118,29 +144,3 @@ For example, all stories having to do importing contacts might all go under the 
 Optionally, the team can further segment features by project. Projects could be defined by project team, if there is more than one project team within the development team as a whole.
 
 A project could also be defined as such based on breadth of scope such that it requires its own repository, for example.
-
-## Roles
-
-#### Product Owner
-* Define business requirements of project (what it should/shouldn't do)
-* Approve completed work (does this fulfill expectations based on defined criteria)
-* Provide info needed to write stories
-* Setting story priority
-
-#### Tech Lead
-* Advise overall technical approach
-* Ensure code is well-built, follows defined convention for the team, and is documented appropriately
-* Ensure technical workflow is followed as defined by team (commits, PRs, Jira, documentation, etc)
-* Connect team to technical resources
-* Determine "what is our platform as an organization?"
-
-#### Development Team
-* Turn business requirements into stories
-* Estimate stories
-* Complete tasks in order of PO's priorities
-* Implement features as defined by stories
-* Follow workflow as defined by team
-
-#### Users
-* Use software
-* Provide feedback
