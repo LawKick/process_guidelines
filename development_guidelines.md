@@ -25,12 +25,12 @@ The following represents Lexicata development workflow guidelines. This is a liv
     </tr>
     <tr>
       <td>Features/Issues</td>
-      <td>topic-\*</td>
+      <td>topic-*</td>
       <td>Always branch off HEAD of Working</td>
     </tr>
     <tr>
       <td>Hotfix</td>
-      <td>hotfix-\*</td>
+      <td>hotfix-*</td>
       <td>Always branch off Stable</td>
     </tr>
   </tbody>
@@ -39,7 +39,7 @@ The following represents Lexicata development workflow guidelines. This is a liv
 ##### Naming Branches for Features and Bugs
 * Must branch from: master
 * Must merge back into: master
-* Branch naming convention: feature-<issue number> or bug-<issue number>
+* Branch naming convention: feature-issue number or bug-issue number
 
 Source: [Branching](https://gist.github.com/digitaljhelms/4287848)
 
